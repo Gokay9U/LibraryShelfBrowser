@@ -1,0 +1,146 @@
+.search{
+  margin-left: 45%;
+}
+
+.glass {
+  background-image: url("shelf_glass.png");
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 24%;
+  top: 52%;
+  width: 76%;
+  height: 9%;
+}
+.wood {
+    background-image: url("shelf_wood.png");
+    position: fixed;
+    background-repeat: no-repeat;
+    left: 24%;
+    top: 92%;
+    width: 76%;
+    height: 14%;
+  }
+.AllBooks img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.Book9 {
+    position: fixed;
+    left: 75%;
+    top: 55%;
+    width: 10%;
+    height: 25%;
+    z-index: 10;
+  }
+.Book8 {
+    position: fixed;
+    left: 59%;
+    top: 55%;
+    width: 10%;
+    height: 25%;
+    z-index: 9;
+  }
+.Book7 {
+    position: fixed;
+    left: 45%;
+    top: 55%;
+    width: 10%;
+    height: 25%;
+    z-index: 8;
+  }
+.Book6 {
+    position: fixed;
+    left: 31%;
+    top: 55%;
+    width: 10%;
+    height: 25%;
+    z-index: 7;
+  }
+.Book5 {
+    position: fixed;
+    left: 17%;
+    top: 55%;
+    width: 10%;
+    height: 25%;
+    z-index: 6;
+  }
+ 
+.Book4 {
+    position: fixed;
+    left: 75%;
+    top: 15%;
+    width: 10%;
+    height: 25%;
+    z-index: 17;
+  }
+.Book3 {
+    position: fixed;
+    left: 59%;
+    top: 15%;
+    width: 10%;
+    height: 25%;
+    z-index: 16;
+  }
+.Book2 {
+    position: fixed;
+    left: 45%;
+    top: 15%;
+    width: 10%;
+    height: 25%;
+    z-index: 15;
+  }
+.Book1 {
+    position: fixed;
+    left: 31%;
+    top: 15%;
+    width: 10%;
+    height: 25%;
+    z-index: 14;
+  }
+.Book0 {
+    position: fixed;
+    left: 17%;
+    top: 15%;
+    width: 10%;
+    height: 25%;
+    z-index: 13;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content 
+  .Modal{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }*/
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
